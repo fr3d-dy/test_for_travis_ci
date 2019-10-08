@@ -6,3 +6,9 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  app: "test-flm-travis"
+  api_key:
+    secure: "b45c4df2-a008-4ae6-bf40-d6dfed214031"

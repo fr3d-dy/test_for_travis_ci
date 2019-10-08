@@ -12,3 +12,7 @@ deploy:
   app: "test-flm-travis"
   api_key:
     secure: "b45c4df2-a008-4ae6-bf40-d6dfed214031"
+
+after_success:
+  - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js

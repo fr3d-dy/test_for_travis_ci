@@ -10,3 +10,4 @@ Awesome factory line manager!
 [coveralls-badge]: https://img.shields.io/coveralls/fr3d-dy/test_for_travis_ci/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/fr3d-dy/test_for_travis_ci
 
+#simple comment
